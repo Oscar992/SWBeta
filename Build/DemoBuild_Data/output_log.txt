@@ -1,0 +1,58 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     912 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Franco\Documents\Hologram\HolograficPackage\MyFirstPackage\Build\DemoBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Franco\Documents\Hologram\HolograficPackage\MyFirstPackage\Build\DemoBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Franco\Documents\Hologram\HolograficPackage\MyFirstPackage\Build\DemoBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Franco\Documents\Hologram\HolograficPackage\MyFirstPackage\Build\DemoBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Franco\Documents\Hologram\HolograficPackage\MyFirstPackage\Build\DemoBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Franco\Documents\Hologram\HolograficPackage\MyFirstPackage\Build\DemoBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Franco\Documents\Hologram\HolograficPackage\MyFirstPackage\Build\DemoBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Franco\Documents\Hologram\HolograficPackage\MyFirstPackage\Build\DemoBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Franco\Documents\Hologram\HolograficPackage\MyFirstPackage\Build\DemoBuild_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Franco\Documents\Hologram\HolograficPackage\MyFirstPackage\Build\DemoBuild_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.233 seconds
+Platform assembly: C:\Users\Franco\Documents\Hologram\HolograficPackage\MyFirstPackage\Build\DemoBuild_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Franco\Documents\Hologram\HolograficPackage\MyFirstPackage\Build\DemoBuild_Data\Managed\System.dll (this message is harmless)
+desktop: 1280x800 60Hz; virtual: 1280x800 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+The referenced script on this Behaviour (Game Object 'Lightsaber') is missing!
+ 
+(Filename:  Line: 1656)
+
+UnloadTime: 1.030427 ms
+Failed to load 'C:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Plugins/KinectUnityAddin.dll', expected 32 bit architecture (IMAGE_FILE_MACHINE_I386), but was IMAGE_FILE_MACHINE_AMD64. You must recompile your plugin for 32 bit architecture.
+ 
+(Filename:  Line: 111)
+
+Fallback handler could not load library C:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Mono/.\C:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Plugins/KinectUnityAddin.dll
+Fallback handler could not load library C:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Mono/.\C:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Plugins/KinectUnityAddin
+Fallback handler could not load library C:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Mono/libC:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Plugins/KinectUnityAddin.dll
+Fallback handler could not load library C:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Mono/.\libC:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Plugins/KinectUnityAddin.dll
+Fallback handler could not load library C:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Mono/libC:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Plugins/KinectUnityAddin.dll
+Failed to load 'C:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Plugins/KinectUnityAddin.dll', expected 32 bit architecture (IMAGE_FILE_MACHINE_I386), but was IMAGE_FILE_MACHINE_AMD64. You must recompile your plugin for 32 bit architecture.
+ 
+(Filename:  Line: 111)
+
+Fallback handler could not load library C:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Mono/.\C:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Plugins/KinectUnityAddin.dll
+Fallback handler could not load library C:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Mono/.\C:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Plugins/KinectUnityAddin
+Fallback handler could not load library C:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Mono/libC:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Plugins/KinectUnityAddin.dll
+Fallback handler could not load library C:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Mono/.\libC:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Plugins/KinectUnityAddin.dll
+Fallback handler could not load library C:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Mono/libC:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Plugins/KinectUnityAddin.dll
+DllNotFoundException: C:/Users/Franco/Documents/Hologram/HolograficPackage/MyFirstPackage/Build/DemoBuild_Data/Plugins/KinectUnityAddin.dll
+  at (wrapper managed-to-native) Windows.Kinect.KinectSensor:Windows_Kinect_KinectSensor_GetDefault ()
+  at Windows.Kinect.KinectSensor.GetDefault () [0x00000] in <filename unknown>:0 
+  at BodySourceManager.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2214 -> priority: 1 
