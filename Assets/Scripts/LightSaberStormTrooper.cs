@@ -8,17 +8,13 @@ public class LightSaberStormTrooper : MonoBehaviour {
 	public static bool hit;
 
 	void Start () {
-
 		hit = false;
-
 	}
-	
 	// Update is called once per frame
 	void Update () {
 	
 	}
-
-
+		
 	void OnTriggerEnter(Collider other) { 
 		hit = true;
 	}

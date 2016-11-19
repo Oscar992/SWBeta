@@ -1,10 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LightSaberStormTrooper.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AnimatorStormTrooper.cs">
     <Files>
-      <File FileName="Assets\Scripts\AnimatorStormTrooper.cs" Line="211" Column="2" />
+      <File FileName="Assets\Scripts\AnimatorStormTrooper.cs" Line="39" Column="60" />
+      <File FileName="Assets\Scripts\LightSaberStormTrooper.cs" Line="1" Column="1" />
       <File FileName="Assets\VisualProyector\Scripts\GestureController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LightSaberStormTrooper.cs" Line="11" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

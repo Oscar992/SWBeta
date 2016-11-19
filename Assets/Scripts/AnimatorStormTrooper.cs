@@ -42,12 +42,10 @@ public class AnimatorStormTrooper : MonoBehaviour {
 		    anim.SetBool ("isFirstTimeWDS",false);
 		}
 			
-	
-
 		if (!anim.GetBool ("isFirstTimeWDS") )
 		{
 			if (LightSaberStormTrooper.hit) {
-				anim.SetBool ("gettingHit", true);
+				anim.SetTrigger ("hit");
 				LightSaberStormTrooper.hit = false;
 				return;
 			} 
