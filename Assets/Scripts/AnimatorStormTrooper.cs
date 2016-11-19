@@ -20,11 +20,13 @@ public class AnimatorStormTrooper : MonoBehaviour {
 		anim.SetBool ("isIdle",false);
 		anim.SetBool ("isWDSword",true);
 		anim.SetBool ("isFirstTimeWDS",true);
+		anim.SetBool("gettingHit", false);
 		elapsedTime = 0.0f;
         atackTime = elapsedTime + Random.Range(2.1f, 3.1f);
 		hasDodgeRight = false;
 		hasDodgeLeft = false;
 		lastAnimation = 100;
+
 		//lastPosition = hips.GetComponent<Transform> ().position;
 		//anim.transform.parent.position
 		initialPosition = transform.position;
@@ -40,24 +42,33 @@ public class AnimatorStormTrooper : MonoBehaviour {
 		    anim.SetBool ("isFirstTimeWDS",false);
 		}
 			
-		if (!anim.GetBool ("isFirstTimeWDS"))
+	
+
+		if (!anim.GetBool ("isFirstTimeWDS") )
 		{
+			if (LightSaberStormTrooper.hit) {
+				anim.SetBool ("gettingHit", true);
+				LightSaberStormTrooper.hit = false;
+				return;
+			} 
+
             if (elapsedTime >= atackTime)
-            {
-                atackTime = elapsedTime + Random.Range(2.1f, 3.1f);
+            {				
+				atackTime = elapsedTime + Random.Range(2.1f, 3.1f);
 
 				//Random cuando esta atacando
-				int pRandom = Random.Range(0, 4);
-          
-				//Random cuando se esta usando la fuerza
-				pRandom = Random.Range(5,8);
-				Debug.Log ("Random" + pRandom);
-
+				int pRandom = Random.Range(0, 5);
 				while (pRandom == lastAnimation) {
-					pRandom = Random.Range(5,8);
+					pRandom = Random.Range(0,5);
 				}
+
+				//Random cuando se esta usando la fuerza
+				//pRandom = Random.Range(5,8);
+				//while (pRandom == lastAnimation) {
+				//	pRandom = Random.Range(5,8);
+				//}
 					
-			//	pRandom = 5;
+				pRandom = 2;
                 if (pRandom == 0)
                 {
                     anim.SetBool("isAttacking1", true);
@@ -76,7 +87,7 @@ public class AnimatorStormTrooper : MonoBehaviour {
                 }
                 else if (pRandom == 4)
                 {
-					isAttacking = true;
+		
                     anim.SetBool("isAttacking5", true);
 				} else if (pRandom == 5 && !hasDodgeLeft)
 				{
@@ -114,7 +125,6 @@ public class AnimatorStormTrooper : MonoBehaviour {
                     anim.SetBool("isDeath",false);
                 }
 
-
 				lastAnimation = pRandom;
             }
             else
@@ -133,8 +143,7 @@ public class AnimatorStormTrooper : MonoBehaviour {
             }
         }
 			
-
-		if (anim.GetCurrentAnimatorStateInfo (0).IsName ("dodgeRight")) {
+	   if (anim.GetCurrentAnimatorStateInfo (0).IsName ("dodgeRight")) {
 	
 			transform.position = new Vector3 (transform.position.x - 0.5f, transform.position.y, transform.position.z); 
 			Debug.Log (transform.position.x - 0.5f);
@@ -188,18 +197,9 @@ public class AnimatorStormTrooper : MonoBehaviour {
 
 	public void onAnimationEnded()
 	{
-
-
-		Vector3 diffVector;
-	    //Vector3 hipVector = hips.GetComponent<Transform> ().position;
-		diffVector = hips.GetComponent<Transform> ().position - stt.GetComponent<Transform> ().position;
-		Vector3 pEnemyPosition =  new Vector3(stt.GetComponent<Transform> ().position.x + diffVector.x+3f,
-									          stt.GetComponent<Transform> ().position.y,
-			                                  stt.GetComponent<Transform> ().position.z);
-
-	    Vector3 final = new Vector3 (pEnemyPosition.x,pEnemyPosition.y, pEnemyPosition.z);
-		stt.GetComponent<Transform>().position = /*pEnemyPosition*/final;
-		//lastPosition = hipVector;
+	//	anim.SetBool("isIdLe", true);
+//		anim.SetBool("gettingHit", false);
+	
 	}
 
 

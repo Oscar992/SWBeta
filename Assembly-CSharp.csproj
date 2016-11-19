@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5DB99BAE-2EFB-AAAE-003D-E2D1877B18E0}</ProjectGuid>
+    <ProjectGuid>{08132AE9-B63D-13E4-2B50-BCFF847A79CF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\AnimatorStormTrooper.cs" />
      <Compile Include="Assets\Scripts\Force.cs" />
      <Compile Include="Assets\Scripts\GunShooting.cs" />
+     <Compile Include="Assets\Scripts\LightSaberStormTrooper.cs" />
      <Compile Include="Assets\Scripts\Score\Scores.cs" />
      <Compile Include="Assets\Scripts\ShotBehavior.cs" />
      <Compile Include="Assets\Scripts\Splash\Splash.cs" />
